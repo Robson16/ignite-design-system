@@ -1,0 +1,13 @@
+{
+  "name": "@ignite-ui/prettier-config",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "prettier": "^3.7.4"
+  }
+}

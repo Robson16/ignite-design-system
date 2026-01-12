@@ -20,9 +20,12 @@
   ],
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts",
-    "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "lint": "eslint src/**/*.ts* --fix"
   },
   "devDependencies": {
+    "@ignite-ui/eslint-config": "*",
+    "@ignite-ui/prettier-config": "*",
     "@ignite-ui/ts-config": "*",
     "tsup": "^8.5.1",
     "typescript": "^5.9.3"
