@@ -1,0 +1,31 @@
+{
+  "name": "ignite-design-system",
+  "version": "1.0.0",
+  "description": "Design system created in the Rocketseat Ignite 2022 course.",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "homepage": "https://github.com/Robson16/ignite-design-system#readme",
+  "author": {
+    "name": "Robson H. Rodrigues",
+    "url": "https://github.com/Robson16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robson16/ignite-design-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Robson16/ignite-design-system/issues"
+  },
+  "keywords": [
+    "ignite",
+    "rocketseat",
+    "typescript"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
