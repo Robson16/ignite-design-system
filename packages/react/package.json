@@ -1,11 +1,14 @@
 {
   "name": "@ignite-ui/react",
   "version": "1.0.0",
-  "description": "",
+  "description": "React components for the Ignite UI Design System.",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "author": {
     "name": "Robson H. Rodrigues",
     "url": "https://github.com/Robson16"
@@ -20,9 +23,16 @@
     "build": "tsup src/index.ts --format esm,cjs --dts",
     "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
   },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
   "devDependencies": {
     "@ignite-ui/tokens": "*",
-    "tsup": "8.5.1",
-    "typescript": "5.9.3"
+    "@ignite-ui/ts-config": "*",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
   }
 }

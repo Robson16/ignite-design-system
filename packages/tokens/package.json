@@ -6,6 +6,9 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "author": {
     "name": "Robson H. Rodrigues",
     "url": "https://github.com/Robson16"
@@ -20,7 +23,8 @@
     "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
   },
   "devDependencies": {
-    "tsup": "8.5.1",
-    "typescript": "5.9.3"
+    "@ignite-ui/ts-config": "*",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
   }
 }
