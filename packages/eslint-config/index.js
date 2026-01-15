@@ -10,6 +10,7 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'plugin:@typescript-eslint/recommended',
     'prettier',
+    'plugin:mdx/recommended',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -36,6 +37,16 @@ module.exports = {
     'simple-import-sort/imports': 'error', 
     'simple-import-sort/exports': 'error', 
   },
+  overrides: [
+    {
+      files: ['*.mdx'],
+      parser: 'eslint-mdx',
+      rules: {       
+        'indent': 'off',       
+        'react/no-unescaped-entities': 'off' 
+      }
+    }
+  ],
   settings: {
     react: {
       version: 'detect',
