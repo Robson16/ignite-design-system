@@ -9,3 +9,5 @@ export interface BoxProps extends ComponentProps<typeof BoxContainer> {
 export function Box(props: BoxProps) {
   return <BoxContainer {...props} />;
 }
+
+Box.displayName = 'Box';

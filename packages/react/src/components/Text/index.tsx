@@ -9,3 +9,5 @@ export interface TextProps extends ComponentProps<typeof TextContainer> {
 export function Text(props: TextProps) {
   return <TextContainer {...props} />;
 }
+
+Text.displayName = 'Text';
