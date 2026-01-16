@@ -7,7 +7,6 @@ import {
   radii,
   space,
 } from '@ignite-ui/tokens';
-import { createGlobalStyle, css, keyframes, styled } from 'styled-components';
 
 export const theme = {
   colors,
@@ -18,5 +17,3 @@ export const theme = {
   radii,
   space,
 };
-
-export { createGlobalStyle, css, keyframes, styled };
