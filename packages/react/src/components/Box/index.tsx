@@ -1,11 +1,11 @@
-import { ComponentProps } from 'react';
-import { styled } from 'styled-components';
+import { ComponentProps, ElementType } from 'react';
 
-export const Box = styled.div`
-  padding: ${({ theme }) => theme.space[4]};
-  border-radius: ${({ theme }) => theme.radii.md};
-  background-color: ${({ theme }) => theme.colors.gray800};
-  border: 1px solid ${({ theme }) => theme.colors.gray600};
-`;
+import { BoxContainer } from './styles';
 
-export interface BoxProps extends ComponentProps<typeof Box> {}
+export interface BoxProps extends ComponentProps<typeof BoxContainer> {
+  as?: ElementType;
+}
+
+export function Box(props: BoxProps) {
+  return <BoxContainer {...props} />;
+}
