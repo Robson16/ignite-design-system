@@ -2,6 +2,7 @@
   "extends": "@ignite-ui/ts-config/react.json",
   "include": [
     "src/**/*",
-    ".storybook"
+    ".storybook",
+    "../react/src/@types"
   ]
 }
