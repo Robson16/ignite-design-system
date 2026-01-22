@@ -8,7 +8,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@ignite-ui/tokens';
+} from '@robson16/tokens';
 
 declare module 'styled-components' {
   export interface DefaultTheme {

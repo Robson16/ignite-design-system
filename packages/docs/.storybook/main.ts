@@ -1,7 +1,5 @@
 import type { StorybookConfig } from '@storybook/react-vite';
-
 import { dirname } from 'path';
-
 import { fileURLToPath } from 'url';
 
 /**
@@ -11,6 +9,7 @@ import { fileURLToPath } from 'url';
 function getAbsolutePath(value: string): any {
   return dirname(fileURLToPath(import.meta.resolve(`${value}/package.json`)));
 }
+
 const config: StorybookConfig = {
   stories: ['../src/**/*.mdx', '../src/**/*.stories.@(js|jsx|mjs|ts|tsx)'],
   addons: [
@@ -20,10 +19,18 @@ const config: StorybookConfig = {
     getAbsolutePath('@storybook/addon-docs'),
     getAbsolutePath('@storybook/addon-onboarding'),
   ],
-  framework: getAbsolutePath('@storybook/react-vite'),
-  // docs: {
-  //   defaultName: 'Documentation',
-  //   docsMode: true,
-  // },
+  framework: {
+    name: getAbsolutePath('@storybook/react-vite'),
+    options: {},
+  },
+
+  viteFinal: (config, { configType }) => {
+    if (configType === 'PRODUCTION') {
+      config.base = '/ignite-design-system/';
+    }
+
+    return config;
+  },
 };
+
 export default config;

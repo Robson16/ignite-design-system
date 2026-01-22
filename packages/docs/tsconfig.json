@@ -1,5 +1,5 @@
 {
-  "extends": "@ignite-ui/ts-config/react.json",
+  "extends": "@robson16/ts-config/react.json",
   "include": [
     "src/**/*",
     ".storybook",

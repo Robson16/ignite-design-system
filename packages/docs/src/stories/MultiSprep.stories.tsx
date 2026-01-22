@@ -1,4 +1,4 @@
-import { Box, MultiStep, MultiStepProps } from '@ignite-ui/react';
+import { Box, MultiStep, MultiStepProps } from '@robson16/react';
 import type { Meta, StoryObj } from '@storybook/react';
 import { styled } from 'styled-components';
 

@@ -1,12 +1,13 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@robson16/docs",
   "version": "1.0.0",
   "description": "Docs components for the Ignite UI Design System.",
   "license": "MIT",
   "scripts": {
     "dev": "storybook dev -p 6006",
     "build": "storybook build",
-    "lint": "eslint src --ext .ts,.tsx,.mdx --fix"
+    "lint": "eslint src --ext .ts,.tsx,.mdx --fix",
+    "deploy-storybook": "npm run build && npx gh-pages -d storybook-static"
   },
   "author": {
     "name": "Robson H. Rodrigues",
@@ -19,8 +20,8 @@
     "react"
   ],
   "dependencies": {
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
+    "@robson16/react": "*",
+    "@robson16/tokens": "*",
     "phosphor-react": "^1.4.1",
     "polished": "^4.3.1",
     "react": "^18.3.1",
@@ -29,9 +30,9 @@
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^5.0.0",
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/prettier-config": "*",
-    "@ignite-ui/ts-config": "*",
+    "@robson16/eslint-config": "*",
+    "@robson16/prettier-config": "*",
+    "@robson16/ts-config": "*",
     "@storybook/addon-a11y": "^10.1.11",
     "@storybook/addon-docs": "^10.1.11",
     "@storybook/addon-onboarding": "^10.1.11",
@@ -47,6 +48,7 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
     "eslint-plugin-storybook": "^10.1.11",
+    "gh-pages": "^6.3.0",
     "playwright": "^1.57.0",
     "storybook": "^10.1.11",
     "typescript": "^5.5.4",

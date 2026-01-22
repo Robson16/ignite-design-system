@@ -1,7 +1,7 @@
 import type { Preview } from '@storybook/react-vite';
 
 import { ThemeProvider } from 'styled-components';
-import { theme } from '@ignite-ui/react';
+import { theme } from '@robson16/react';
 import { themes } from 'storybook/theming';
 
 const preview: Preview = {

@@ -6,7 +6,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@ignite-ui/tokens';
+} from '@robson16/tokens';
 
 export const theme = {
   colors,
