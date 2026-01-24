@@ -2,7 +2,7 @@
   "name": "@beryl-ui/docs",
   "private": true,
   "version": "1.0.0",
-  "description": "Docs components for the Ignite UI Design System.",
+  "description": "Interactive documentation and component showcase for beryl-ui built with Storybook.",
   "license": "MIT",
   "scripts": {
     "dev": "storybook dev -p 6006",
@@ -15,10 +15,11 @@
     "url": "https://github.com/Robson16"
   },
   "keywords": [
-    "ignite",
-    "rocketseat",
-    "typescript",
-    "react"
+    "storybook",
+    "documentation",
+    "design-system",
+    "react",
+    "typescript"
   ],
   "dependencies": {
     "@beryl-ui/react": "*",

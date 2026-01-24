@@ -7,4 +7,4 @@ export * from './components/MultiStep';
 export * from './components/Text';
 export * from './components/TextArea';
 export * from './components/TextInput';
-export { theme } from './styles/theme';
+export * from './styles/theme';

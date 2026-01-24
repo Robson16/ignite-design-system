@@ -1,7 +1,7 @@
 import type { Preview } from '@storybook/react-vite';
 
 import { ThemeProvider } from 'styled-components';
-import { theme } from '@beryl-ui/react';
+import { theme as defaultTheme } from '@beryl-ui/react';
 import { themes } from 'storybook/theming';
 
 const preview: Preview = {
@@ -25,7 +25,7 @@ const preview: Preview = {
   tags: ['autodocs'],
   decorators: [
     (Story) => (
-      <ThemeProvider theme={theme}>
+      <ThemeProvider theme={defaultTheme}>
         <Story />
       </ThemeProvider>
     ),

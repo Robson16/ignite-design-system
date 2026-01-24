@@ -4,8 +4,8 @@ import styled from 'styled-components';
 export const AvatarContainer = styled(Avatar.Root)`
   border-radius: ${({ theme }) => theme.radii.full};
   display: inline-block;
-  width: ${({ theme }) => theme.space[12]};
-  height: ${({ theme }) => theme.space[12]};
+  width: ${({ theme }) => theme.space[16]};
+  height: ${({ theme }) => theme.space[16]};
   overflow: hidden;
 `;
 

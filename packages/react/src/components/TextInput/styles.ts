@@ -1,13 +1,25 @@
 import { styled } from 'styled-components';
 
-export const TextInputContainer = styled.div`
+interface TextInputContainerProps {
+  size?: 'sm' | 'md';
+}
+
+export const TextInputContainer = styled.div<TextInputContainerProps>`
   background-color: ${({ theme }) => theme.colors.gray900};
-  padding: ${({ theme }) => `${theme.space[3]} ${theme.space[4]}`};
   border-radius: ${({ theme }) => theme.radii.sm};
   box-sizing: border-box;
   border: 2px solid ${({ theme }) => theme.colors.gray900};
   display: flex;
-  align-items: baseline;
+  align-items: center;
+
+  padding: ${({ theme, size = 'md' }) => {
+    const paddingMap = {
+      sm: `${theme.space[2]} ${theme.space[3]}`,
+      md: `${theme.space[3]} ${theme.space[4]}`,
+    };
+
+    return paddingMap[size];
+  }};
 
   &:has(input:focus) {
     border-color: ${({ theme }) => theme.colors.emerald300};

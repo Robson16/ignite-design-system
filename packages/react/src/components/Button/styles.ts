@@ -28,6 +28,10 @@ export const ButtonContainer = styled.button<ButtonProps>`
     cursor: not-allowed;
   }
 
+  &:focus {
+    box-shadow: 0 0 0 2px ${({ theme }) => theme.colors.gray100};
+  }
+
   svg {
     width: ${({ theme }) => theme.space[4]};
     height: ${({ theme }) => theme.space[4]};

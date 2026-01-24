@@ -1,7 +1,7 @@
 {
   "name": "@beryl-ui/root",
   "version": "1.0.0",
-  "description": "Design system created in the Rocketseat Ignite 2022 course.",
+  "description": "A professional design system for React applications with reusable components and design tokens.",
   "main": "index.js",
   "license": "MIT",
   "private": true,
@@ -13,22 +13,23 @@
     "node": ">=24.0.0",
     "npm": ">=11.0.0"
   },
-  "homepage": "https://github.com/Robson16/ignite-design-system#readme",
+  "homepage": "https://github.com/Robson16/beryl-ui#readme",
   "author": {
     "name": "Robson H. Rodrigues",
     "url": "https://github.com/Robson16"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Robson16/ignite-design-system.git"
+    "url": "git+https://github.com/Robson16/beryl-ui.git"
   },
   "bugs": {
-    "url": "https://github.com/Robson16/ignite-design-system/issues"
+    "url": "https://github.com/Robson16/beryl-ui/issues"
   },
   "keywords": [
-    "ignite",
-    "rocketseat",
-    "typescript"
+    "design-system",
+    "react",
+    "typescript",
+    "components"
   ],
   "scripts": {
     "dev": "turbo run dev --parallel",

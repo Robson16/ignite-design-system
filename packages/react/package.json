@@ -1,6 +1,6 @@
 {
   "name": "@beryl-ui/react",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "React components for the beryl-ui Design System.",
   "license": "MIT",
   "main": "./dist/index.js",
@@ -14,10 +14,11 @@
     "url": "https://github.com/Robson16"
   },
   "keywords": [
-    "ignite",
-    "rocketseat",
+    "design-system",
+    "react",
+    "components",
     "typescript",
-    "react"
+    "styled-components"
   ],
   "scripts": {
     "build": "tsup src/index.tsx --format esm,cjs --dts --external react,styled-components",
