@@ -1,7 +1,7 @@
 {
   "name": "@beryl-ui/tokens",
-  "version": "2.0.0",
-  "description": "Design tokens for the Ignite UI Design System.",
+  "version": "2.1.0",
+  "description": "Design tokens for the beryl-ui Design System.",
   "license": "MIT",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -14,8 +14,8 @@
     "url": "https://github.com/Robson16"
   },
   "keywords": [
-    "ignite",
-    "rocketseat",
+    "beryl",
+    "emerald",
     "typescript"
   ],
   "scripts": {

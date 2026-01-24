@@ -1,15 +1,15 @@
-# Ignite Design System
+# Beryl UI
 
 <p align="center">
   <a href="https://www.npmjs.com/package/@beryl-ui/react">
-    <img alt="NPM Version" src="https://img.shields.io/npm/v/@beryl-ui/react?color=8257E5&label=%40robson16%2Freact">
+    <img alt="NPM Version" src="https://img.shields.io/npm/v/@beryl-ui/react?color=8257E5&label=%40beryl-ui%2Freact">
   </a>
-  <img alt="Build" src="https://img.shields.io/github/actions/workflow/status/Robson16/ignite-design-system/deploy-docs.yml?branch=main&color=8257E5&label=build">
-  <img alt="License" src="https://img.shields.io/github/license/Robson16/ignite-design-system?color=8257E5">
+  <img alt="Build" src="https://img.shields.io/github/actions/workflow/status/Robson16/beryl-ui/deploy-docs.yml?branch=main&color=8257E5&label=build">
+  <img alt="License" src="https://img.shields.io/github/license/Robson16/beryl-ui?color=8257E5">
 </p>
 
 <p align="center">
-  Design system criado durante o curso Ignite da Rocketseat. Este repositório contém todos os componentes da UI para serem usados em aplicações React.
+  Sistema de design robusto e profissional para aplicações React. Uma biblioteca completa de componentes reutilizáveis e bem-documentados.
 </p>
 
 <p align="center">
@@ -19,7 +19,7 @@
   <a href="#-licença">Licença</a>
 </p>
 
-> **Nota:** Você pode visualizar todos os componentes em nosso [**Storybook de documentação**](https://robson16.github.io/ignite-design-system/).
+> **Documentação:** Visualize todos os componentes e sua documentação completa em nosso [**Storybook online**](https://robson16.github.io/beryl-ui/).
 
 ## ✨ Componentes
 
@@ -36,7 +36,7 @@ Lista de componentes que foram desenvolvidos e estão prontos para uso:
 
 ## 🚀 Começando
 
-Para utilizar os componentes do **Ignite Design System** em seu projeto, siga os passos abaixo.
+Para utilizar os componentes do **beryl-ui** em seu projeto, siga os passos abaixo.
 
 ### Instalação
 
@@ -77,8 +77,8 @@ Se você deseja contribuir para o projeto, siga estas instruções para configur
 
 1.  **Clone o repositório:**
     ```bash
-    git clone https://github.com/Robson16/ignite-design-system.git
-    cd ignite-design-system
+    git clone https://github.com/Robson16/beryl-ui.git
+    cd beryl-ui
     ```
 
 2.  **Instale as dependências:**

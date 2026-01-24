@@ -18,11 +18,11 @@ export const CheckboxContainer = styled(Checkbox.Root)`
 
   &:focus,
   &[data-state='checked'] {
-    border: 2px solid ${({ theme }) => theme.colors.ignite300};
+    border: 2px solid ${({ theme }) => theme.colors.emerald300};
   }
 
   &[data-state='checked'] {
-    background-color: ${({ theme }) => theme.colors.ignite300};
+    background-color: ${({ theme }) => theme.colors.emerald300};
   }
 `;
 

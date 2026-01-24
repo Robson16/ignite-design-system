@@ -2,12 +2,12 @@
 
 <p align="center">
   <a href="https://www.npmjs.com/package/@beryl-ui/eslint-config">
-    <img alt="NPM Version" src="https://img.shields.io/npm/v/@beryl-ui/eslint-config?color=8257E5&label=%40robson16%2Feslint-config">
+    <img alt="NPM Version" src="https://img.shields.io/npm/v/@beryl-ui/eslint-config?color=8257E5&label=%40beryl-ui%2Feslint-config">
   </a>
-  <img alt="License" src="https://img.shields.io/github/license/Robson16/ignite-design-system?color=8257E5">
+  <img alt="License" src="https://img.shields.io/github/license/Robson16/beryl-ui?color=8257E5">
 </p>
 
-Este pacote contém as configurações de ESLint compartilhadas para o **Ignite Design System** monorepo. Ele ajuda a manter um estilo de código consistente e a identificar problemas em potencial em todos os projetos.
+Configuração compartilhada de ESLint para o monorepo **beryl-ui**. Estabelece padrões consistentes de qualidade de código e detecção de problemas em potencial em todos os pacotes do sistema.
 
 ## 🚀 Instalação
 

@@ -2,12 +2,12 @@
 
 <p align="center">
   <a href="https://www.npmjs.com/package/@beryl-ui/tokens">
-    <img alt="NPM Version" src="https://img.shields.io/npm/v/@beryl-ui/tokens?color=8257E5&label=%40robson16%2Ftokens">
+    <img alt="NPM Version" src="https://img.shields.io/npm/v/@beryl-ui/tokens?color=8257E5&label=%40beryl-ui%2Ftokens">
   </a>
-  <img alt="License" src="https://img.shields.io/github/license/Robson16/ignite-design-system?color=8257E5">
+  <img alt="License" src="https://img.shields.io/github/license/Robson16/beryl-ui?color=8257E5">
 </p>
 
-Este pacote contém os design tokens (cores, espaçamentos, tipografia, tamanhos de fonte, etc.) que definem a identidade visual do **Ignite Design System**. Eles são a fonte da verdade para todos os valores de design.
+Design tokens centralizados do **beryl-ui** que definem a identidade visual completa do sistema. Eles servem como fonte única da verdade para cores, espaçamentos, tipografia, bordas e demais valores de design.
 
 ## ✨ Tokens Incluídos
 

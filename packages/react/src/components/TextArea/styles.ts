@@ -15,7 +15,7 @@ export const TextAreaContainer = styled.textarea`
 
   &:focus {
     outline: 0;
-    border-color: ${({ theme }) => theme.colors.ignite300};
+    border-color: ${({ theme }) => theme.colors.emerald300};
   }
 
   &:disabled {

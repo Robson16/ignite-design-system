@@ -2,12 +2,12 @@
 
 <p align="center">
   <a href="https://www.npmjs.com/package/@beryl-ui/prettier-config">
-    <img alt="NPM Version" src="https://img.shields.io/npm/v/@beryl-ui/prettier-config?color=8257E5&label=%40robson16%2Fprettier-config">
+    <img alt="NPM Version" src="https://img.shields.io/npm/v/@beryl-ui/prettier-config?color=8257E5&label=%40beryl-ui%2Fprettier-config">
   </a>
-  <img alt="License" src="https://img.shields.io/github/license/Robson16/ignite-design-system?color=8257E5">
+  <img alt="License" src="https://img.shields.io/github/license/Robson16/beryl-ui?color=8257E5">
 </p>
 
-Este pacote contém as configurações de Prettier compartilhadas para o **Ignite Design System** monorepo. Ele garante que o código seja formatado de maneira consistente em todos os projetos.
+Configuração compartilhada de Prettier para o monorepo **beryl-ui**. Garante formatação de código consistente e profissional em todos os pacotes do sistema.
 
 ## 🚀 Instalação
 

@@ -10,7 +10,7 @@ export const TextInputContainer = styled.div`
   align-items: baseline;
 
   &:has(input:focus) {
-    border-color: ${({ theme }) => theme.colors.ignite300};
+    border-color: ${({ theme }) => theme.colors.emerald300};
   }
 
   &:has(input:disabled) {

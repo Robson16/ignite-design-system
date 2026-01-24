@@ -38,10 +38,10 @@ export const ButtonContainer = styled.button<ButtonProps>`
       case 'primary':
         return css`
           color: ${theme.colors.white};
-          background: ${theme.colors.ignite500};
+          background: ${theme.colors.emerald500};
 
           &:not(:disabled):hover {
-            background: ${theme.colors.ignite300};
+            background: ${theme.colors.emerald300};
           }
 
           &:disabled {
@@ -50,11 +50,11 @@ export const ButtonContainer = styled.button<ButtonProps>`
         `;
       case 'secondary':
         return css`
-          color: ${theme.colors.ignite300};
-          border: 2px solid ${theme.colors.ignite500};
+          color: ${theme.colors.emerald300};
+          border: 2px solid ${theme.colors.emerald500};
 
           &:not(:disabled):hover {
-            background: ${theme.colors.ignite500};
+            background: ${theme.colors.emerald500};
             color: ${theme.colors.white};
           }
 
