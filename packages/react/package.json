@@ -1,6 +1,6 @@
 {
   "name": "@beryl-ui/react",
-  "version": "2.1.2",
+  "version": "2.2.0",
   "description": "React components for the beryl-ui Design System.",
   "license": "MIT",
   "main": "./dist/index.js",

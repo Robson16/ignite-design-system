@@ -1,6 +1,6 @@
 {
   "name": "@beryl-ui/eslint-config",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "license": "MIT",
   "private": true,
   "main": "index.js",

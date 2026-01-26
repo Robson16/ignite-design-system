@@ -1,5 +1,26 @@
 # @beryl-ui/prettier-config
 
+## 2.1.2
+
+### Patch Changes
+
+- # New Components and Infrastructure Improvements
+
+  ### @beryl-ui/react
+  - **New Components:**
+    - Added `Tooltip`: A floating hint component supporting global control via `TooltipProvider`.
+    - Added `Toast`: A complete notification system including `ToastProvider` and the `useToast` hook.
+  - **Improvements & Fixes:**
+    - Added `forwardRef` support to `Button`, `Text` and `Heading` components. This ensures proper integration with Radix UI primitives (e.g., Tooltip Trigger).
+    - Improved `Button` typing to explicitly extend `ComponentProps<'button'>`, fixing issues with intrinsic attributes (such as `disabled`).
+    - Updated build configuration (`tsconfig` and `tsup`) to resolve type portability issues (`TS2742`) within the Monorepo.
+
+  ### @beryl-ui/eslint-config
+  - Fixed plugin dependency resolution by moving `eslint-plugin-prettier` to `dependencies`. This ensures the Linter works correctly across all packages.
+
+  ### General
+  - Minor adjustments to build scripts and TypeScript configurations to support the new structure.
+
 ## 2.1.1
 
 ### Patch Changes
