@@ -1,5 +1,11 @@
 # @beryl-ui/react
 
+## 2.2.1
+
+### Patch Changes
+
+- Add support for React 19
+
 ## 2.2.0
 
 ### Minor Changes

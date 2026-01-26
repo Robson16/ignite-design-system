@@ -20,6 +20,7 @@ Professional React component library from **beryl-ui**, built with `styled-compo
 *   **TextArea**: Multi-line text field.
 *   **TextInput**: Text input field.
 *   **Toast**: Feedback message for the user (requires `ToastProvider`).
+*   **Tooltip**: Contextual text hints displayed on hover, focus, or touch (optional `TooltipProvider` for global control).
 
 > For interactive documentation and usage examples for each component, visit our [**Storybook online**](https://robson16.github.io/beryl-ui/).
 
