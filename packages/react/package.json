@@ -1,6 +1,6 @@
 {
   "name": "@beryl-ui/react",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "React components for the beryl-ui Design System.",
   "license": "MIT",
   "main": "./dist/index.js",
@@ -29,8 +29,8 @@
     "styled-components"
   ],
   "scripts": {
-    "build": "tsup src/index.tsx --format esm,cjs --dts --external react,styled-components",
-    "dev": "tsup src/index.tsx --format esm,cjs --dts --external react --watch",
+    "build": "tsup",
+    "dev": "tsup",
     "lint": "eslint src --ext .ts,.tsx --fix"
   },
   "peerDependencies": {

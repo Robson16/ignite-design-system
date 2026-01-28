@@ -1,5 +1,12 @@
 # @beryl-ui/react
 
+## 2.2.3
+
+### Patch Changes
+
+- Migrated build configuration to `tsup.config.ts` to resolve dynamic require errors and correctly handle external dependencies.
+  Also updated `BoxProps` to explicitly include `children`, fixing TypeScript errors in strict mode.
+
 ## 2.2.2
 
 ### Patch Changes
