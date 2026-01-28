@@ -1,4 +1,4 @@
-import { ComponentProps, ElementType, forwardRef, ReactNode } from "react";
+import { ComponentProps, ElementType, ReactNode } from "react";
 
 import { BoxContainer } from "./styles";
 
@@ -7,8 +7,6 @@ export interface BoxProps extends ComponentProps<typeof BoxContainer> {
   children?: ReactNode;
 }
 
-export const Box = forwardRef<HTMLElement, BoxProps>((props, ref) => {
-  return <BoxContainer ref={ref} {...props} />;
-});
+export const Box = BoxContainer;
 
 Box.displayName = "Box";

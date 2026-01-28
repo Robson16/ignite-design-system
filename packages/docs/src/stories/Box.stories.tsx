@@ -43,4 +43,7 @@ export const Styled: Story = {
       </StyledBox>
     );
   },
+  args: {
+    as: "form",
+  },
 };

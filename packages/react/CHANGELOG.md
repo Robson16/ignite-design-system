@@ -1,5 +1,13 @@
 # @beryl-ui/react
 
+## 2.2.4
+
+### Patch Changes
+
+- Refactored `Box` component to export the Styled Component directly instead of wrapping it in a functional component.
+  This fixes a critical issue where the `as` prop and styles were not being passed down correctly when using `styled(Box)` composition.
+  Also fixed build configuration to resolve dynamic require errors.
+
 ## 2.2.3
 
 ### Patch Changes
